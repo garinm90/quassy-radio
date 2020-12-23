@@ -1,0 +1,3 @@
+Linux Command to uploda hex file via AVRDUDE!
+
+sudo avrdude -P /dev/ttyUSB0 -c arduino -p m328p -b 115200 -D -U flash:w:/mnt/data/firmware.hex
